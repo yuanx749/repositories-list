@@ -1,0 +1,24 @@
+name: Update README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Run script
+        run: python list_repos.py
+      - name: Git commit and push
+        run: |
+          git config user.name ${{ github.actor }}
+          git config user.email ${{ github.actor }}@gmail.com  # workaround
+          git add -A
+          git commit -m "Update README" || exit 0
+          git push
