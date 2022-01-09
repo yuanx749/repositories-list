@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: '0 0 1 * *'
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
