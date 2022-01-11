@@ -1,6 +1,6 @@
 # Repositories List
 An automatically updated list of my public non-forked repositories.
-- [config-argument-parser](https://pypi.org/project/config-argument-parser/) - A module for building command-line interface from configuration.
+- [config-argument-parser](https://pypi.org/project/config-argument-parser/) - A package help automatically create command-line interface from configuration or code.
 - [repositories-list](https://yuanx749.github.io/repositories-list/) - A list of public sources repos.
 - [complex_systems](https://yuanx749.github.io/complex_systems/) - A Python package for studying complex systems.
 - [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Development setting for PyTorch NLP project.
