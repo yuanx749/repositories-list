@@ -2,6 +2,7 @@
 An automatically updated list of my public non-forked repositories.
 
 ### Projects
+- [flight-cancellation-predictor](https://yuanx749.github.io/flight-cancellation-predictor/) - Flight cancellation probability prediction.
 - [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Development setting for PyTorch NLP project.
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
 - [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python.
