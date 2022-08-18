@@ -2,10 +2,9 @@
 An automatically updated list of my public non-forked repositories.
 
 ### Projects
-- [flight-cancellation-predictor](https://yuanx749.github.io/flight-cancellation-predictor/) - Flight cancellation probability prediction.
-- [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Development setting for PyTorch NLP project.
+- [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Predict multi-epitope vaccine subunit candidates using NLP.
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
-- [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python.
+- [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python with GUI.
 - [genome_analysis](https://yuanx749.github.io/genome_analysis/) - Genome analysis labs.
 
 ### Packages
@@ -14,6 +13,7 @@ An automatically updated list of my public non-forked repositories.
 * [complex_systems](https://yuanx749.github.io/complex_systems/) - A Python package for studying complex systems.
 
 ### Others
++ [flight-cancellation-predictor](https://github.com/yuanx749/flight-cancellation-predictor) - Flight cancellation probability prediction.
 + [yuanx749.github.io](https://github.com/yuanx749/yuanx749.github.io) - Hello world.
 + [repositories-list](https://github.com/yuanx749/repositories-list) - A list of public sources repos.
 + [n-body](https://github.com/yuanx749/n-body) - N-body simulation with quadtree, OpenMP parallelized.
