@@ -14,7 +14,6 @@ An automatically updated list of my public non-forked repositories.
 
 ### Others
 + [flight-cancellation-predictor](https://github.com/yuanx749/flight-cancellation-predictor) - Flight cancellation probability prediction.
-+ [yuanx749.github.io](https://github.com/yuanx749/yuanx749.github.io) - Hello world.
 + [repositories-list](https://github.com/yuanx749/repositories-list) - A list of public sources repos.
 + [n-body](https://github.com/yuanx749/n-body) - N-body simulation with quadtree, OpenMP parallelized.
 + [sg-pyg-sc](https://github.com/yuanx749/sg-pyg-sc) - Modified tutorials and examples of unsupervised graph learning.
