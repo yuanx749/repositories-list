@@ -38,7 +38,7 @@ dt_lst, repo_source_lst = zip(
 )
 
 # %%
-tags = ["project", "package"]
+tags = ["project", "package", "private"]
 f_ = open("README.md", "w")
 f_.write("# Repositories List\n")
 f_.write("An automatically updated list of my public non-forked repositories.\n")
