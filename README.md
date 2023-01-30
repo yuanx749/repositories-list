@@ -1,5 +1,5 @@
 # Repositories List
-An automatically updated list of my public non-forked repositories.
+An automatically updated list of my public repos and repos contributed to.
 
 ### Projects
 - [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Predict multi-epitope vaccine subunit candidates using NLP.
@@ -19,3 +19,12 @@ An automatically updated list of my public non-forked repositories.
 + [sg-pyg-sc](https://github.com/yuanx749/sg-pyg-sc) - Modified tutorials and examples of unsupervised graph learning.
 + [mlp-pytorch](https://github.com/yuanx749/mlp-pytorch) - PyTorch MLP with scikit-learn API.
 + [docker-flask-redis-celery](https://github.com/yuanx749/docker-flask-redis-celery) - Docker Compose template for web application.
+
+### Contributions
+- [pandas-dev/pandas](https://github.com/pandas-dev/pandas) - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
+- [scipy/scipy](https://github.com/scipy/scipy) - SciPy library main repository
+- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python
+- [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) - Graph Neural Network Library for PyTorch
+- [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) - matplotlib: plotting with Python
+- [probml/pyprobml](https://github.com/probml/pyprobml) - Python code for "Probabilistic Machine learning" book by Kevin Murphy
+- [probml/probml-notebooks](https://github.com/probml/probml-notebooks) - Notebooks for "Probabilistic Machine Learning" book
