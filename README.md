@@ -2,6 +2,7 @@
 An automatically updated list of my public repos and repos contributed to.
 
 ### Projects
+- [vae-mixin-pytorch](https://yuanx749.github.io/vae-mixin-pytorch/) - Variational autoencoders as mixins.
 - [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Predict multi-epitope vaccine subunit candidates using NLP.
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
 - [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python with GUI.
@@ -14,7 +15,7 @@ An automatically updated list of my public repos and repos contributed to.
 
 ### Others
 + [flight-cancellation-predictor](https://github.com/yuanx749/flight-cancellation-predictor) - Flight cancellation probability prediction.
-+ [repositories-list](https://github.com/yuanx749/repositories-list) - A list of public sources repos.
++ [repositories-list](https://github.com/yuanx749/repositories-list) - A list of my public repos.
 + [n-body](https://github.com/yuanx749/n-body) - N-body simulation with quadtree, OpenMP parallelized.
 + [sg-pyg-sc](https://github.com/yuanx749/sg-pyg-sc) - Modified tutorials and examples of unsupervised graph learning.
 + [mlp-pytorch](https://github.com/yuanx749/mlp-pytorch) - PyTorch MLP with scikit-learn API.
@@ -28,3 +29,4 @@ An automatically updated list of my public repos and repos contributed to.
 - [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) - matplotlib: plotting with Python
 - [probml/pyprobml](https://github.com/probml/pyprobml) - Python code for "Probabilistic Machine learning" book by Kevin Murphy
 - [probml/probml-notebooks](https://github.com/probml/probml-notebooks) - Notebooks for "Probabilistic Machine Learning" book
+- [scverse/scanpy](https://github.com/scverse/scanpy) - Single-cell analysis in Python. Scales to >1M cells.
