@@ -9,8 +9,8 @@ An automatically updated list of my public repos and repos contributed to.
 - [genome_analysis](https://yuanx749.github.io/genome_analysis/) - Genome analysis labs.
 
 ### Packages
-* [phasty](https://pypi.org/project/phasty/) - A Python interface for PHAST (phylogenetic analysis with space/time models).
-* [config-argument-parser](https://pypi.org/project/config-argument-parser/) - A package help automatically create command-line interface from configuration or code.
+* [phasty](https://yuanx749.github.io/phasty/) - A Python interface for PHAST (phylogenetic analysis with space/time models).
+* [config-argument-parser](http://config-argument-parser.readthedocs.io/) - A package help automatically create command-line interface from configuration or code.
 * [complex_systems](https://yuanx749.github.io/complex_systems/) - A Python package for studying complex systems.
 
 ### Others
