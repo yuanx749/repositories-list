@@ -46,19 +46,19 @@ tags = ["project", "package", "private"]
 f_ = open("README.md", "w")
 f_.write("# Repositories List\n")
 f_.write("An automatically updated list of my public repos and repos contributed to.\n")
-f_.write("\n### Projects\n")
+f_.write("\n#### Projects\n")
 for repo in source_repo_lst:
     if "project" in repo["topics"]:
         f_.write(f"- [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
-f_.write("\n### Packages\n")
+f_.write("\n#### Packages\n")
 for repo in source_repo_lst:
     if "package" in repo["topics"]:
         f_.write(f"* [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
-f_.write("\n### Others\n")
+f_.write("\n#### Others\n")
 for repo in source_repo_lst:
     if all(tag not in repo["topics"] for tag in tags):
         f_.write(f"+ [{repo['name']}]({repo['html_url']}) - {repo['description']}\n")
-f_.write("\n### Contributions\n")
+f_.write("\n#### Contributions\n")
 for repo in fork_repo_lst:
     url = f"https://api.github.com/repos/{user}/{repo['name']}"
     repo_dict = query(url)

@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    permissions:
+      pages: write
+      id-token: write
+    uses: yuanx749/auto-sphinx-page-action/.github/workflows/main.yml@main
