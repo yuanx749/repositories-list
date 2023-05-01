@@ -14,6 +14,7 @@ An automatically updated list of my public repos and repos contributed to.
 * [complex_systems](https://yuanx749.github.io/complex_systems/) - A Python package for studying complex systems.
 
 #### Others
++ [config-argument-parser-docs](https://github.com/yuanx749/config-argument-parser-docs) - Docs of config-argument-parser.
 + [auto-sphinx-page-action](https://github.com/yuanx749/auto-sphinx-page-action) - GitHub action that creates website using Sphinx.
 + [flight-cancellation-predictor](https://github.com/yuanx749/flight-cancellation-predictor) - Flight cancellation probability prediction.
 + [repositories-list](https://github.com/yuanx749/repositories-list) - A list of my public repos.
