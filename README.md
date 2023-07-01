@@ -3,6 +3,7 @@ An automatically updated list of my public repos and repos contributed to.
 
 #### Projects
 - [vae-mixin-pytorch](https://yuanx749.github.io/vae-mixin-pytorch/) - Variational autoencoders as mixins.
+- [complex_systems](https://yuanx749.github.io/complex_systems/) - A Python package for studying complex systems.
 - [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Predict multi-epitope vaccine subunit candidates using NLP.
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
 - [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python with GUI.
@@ -12,7 +13,6 @@ An automatically updated list of my public repos and repos contributed to.
 * [py-cdhit](https://yuanx749.github.io/py-cdhit/) - A Python interface for CD-HIT package.
 * [phasty](https://yuanx749.github.io/phasty/) - A Python interface for PHAST (phylogenetic analysis with space/time models).
 * [config-argument-parser](http://config-argument-parser.readthedocs.io/) - A package help automatically create command-line interface from configuration or code.
-* [complex_systems](https://yuanx749.github.io/complex_systems/) - A Python package for studying complex systems.
 
 #### Others
 + [config-argument-parser-docs](https://github.com/yuanx749/config-argument-parser-docs) - Docs of config-argument-parser.
