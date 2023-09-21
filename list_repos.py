@@ -42,22 +42,26 @@ source_repo_lst = [repo for repo in repo_lst if not repo["fork"]]
 fork_repo_lst = [repo for repo in repo_lst if repo["fork"]]
 
 # %%
-tags = ["project", "package", "private"]
+tags = ["research", "tool", "project", "private"]
 f_ = open("README.md", "w")
 f_.write("# Repositories List\n")
 f_.write("An automatically updated list of my public repos and repos contributed to.\n")
-f_.write("\n#### Projects\n")
+f_.write("\n#### Research\n")
+for repo in source_repo_lst:
+    if "research" in repo["topics"]:
+        f_.write(f"- [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
+f_.write("\n#### Tools\n")
+for repo in source_repo_lst:
+    if "tool" in repo["topics"]:
+        f_.write(f"- [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
+f_.write("\n#### Featured Projects\n")
 for repo in source_repo_lst:
     if "project" in repo["topics"]:
         f_.write(f"- [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
-f_.write("\n#### Packages\n")
-for repo in source_repo_lst:
-    if "package" in repo["topics"]:
-        f_.write(f"* [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
 f_.write("\n#### Others\n")
 for repo in source_repo_lst:
     if all(tag not in repo["topics"] for tag in tags):
-        f_.write(f"+ [{repo['name']}]({repo['html_url']}) - {repo['description']}\n")
+        f_.write(f"- [{repo['name']}]({repo['html_url']}) - {repo['description']}\n")
 f_.write("\n#### Contributions\n")
 for repo in fork_repo_lst:
     url = f"https://api.github.com/repos/{user}/{repo['name']}"
