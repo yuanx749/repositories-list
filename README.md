@@ -28,8 +28,8 @@ An automatically updated list of my public repos and repos contributed to.
 - [docker-flask-redis-celery](https://github.com/yuanx749/docker-flask-redis-celery) - Docker Compose template for web application.
 
 #### Contributions
-- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python
 - [pandas-dev/pandas](https://github.com/pandas-dev/pandas) - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
+- [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python
 - [scipy/scipy](https://github.com/scipy/scipy) - SciPy library main repository
 - [pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) - Graph Neural Network Library for PyTorch
 - [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) - matplotlib: plotting with Python
