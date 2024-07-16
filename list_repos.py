@@ -63,7 +63,7 @@ for repo in source_repo_lst:
     if all(tag not in repo["topics"] for tag in tags):
         f_.write(f"- [{repo['name']}]({repo['html_url']}) - {repo['description']}\n")
 
-href = "https://github.com/search?q=involves%3Ayuanx749&amp;type=pullrequests&amp;s=created&amp;o=desc"
+href = "https://github.com/search?q=involves%3Ayuanx749+is%3Apublic&amp;type=pullrequests&amp;s=created&amp;o=desc"
 f_.write(f'\n#### <a href="{href}">Contributions</a>\n')
 for repo in fork_repo_lst:
     url = f"https://api.github.com/repos/{user}/{repo['name']}"
