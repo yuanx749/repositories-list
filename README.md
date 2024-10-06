@@ -20,7 +20,6 @@ An automatically updated list of my public repos and repos contributed to.
 
 #### Others
 - [config-argument-parser-docs](https://github.com/yuanx749/config-argument-parser-docs) - Docs of config-argument-parser.
-- [flight-cancellation-predictor](https://github.com/yuanx749/flight-cancellation-predictor) - Flight cancellation probability prediction.
 - [repositories-list](https://github.com/yuanx749/repositories-list) - A list of my public repos.
 - [n-body](https://github.com/yuanx749/n-body) - N-body simulation with quadtree, OpenMP parallelized.
 - [docker-flask-redis-celery](https://github.com/yuanx749/docker-flask-redis-celery) - Docker Compose template for web application.
