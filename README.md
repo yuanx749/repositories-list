@@ -7,7 +7,7 @@ An automatically updated list of my public repos and repos contributed to.
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
 
 #### Tools
-- [py-cdhit](https://yuanx749.github.io/py-cdhit/) - A Python interface for CD-HIT package.
+- [py-cdhit](https://yuanx749.github.io/py-cdhit/) - A Python package for CD-HIT, clustering protein or nucleotide sequences.
 - [auto-sphinx-page-action](https://github.com/marketplace/actions/auto-sphinx-page) - GitHub action that creates website using Sphinx.
 - [phasty](https://yuanx749.github.io/phasty/) - A Python interface for PHAST (phylogenetic analysis with space/time models).
 - [config-argument-parser](http://config-argument-parser.readthedocs.io/) - A package to help automatically create command-line interface from configuration or code.
