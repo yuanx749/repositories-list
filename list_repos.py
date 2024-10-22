@@ -23,7 +23,7 @@ def query(url):
 user = "yuanx749"
 params = urllib.parse.urlencode(
     {
-        "sort": "created",
+        "sort": "updated",
     }
 )
 url = f"https://api.github.com/users/{user}/repos?{params}"
@@ -31,14 +31,17 @@ repo_lst = query(url)
 
 # %%
 dt_lst = []
-for repo in repo_lst:
-    url = f"https://api.github.com/repos/{user}/{repo['name']}/commits"
-    commit_lst = query(url)
-    dt = commit_lst[-1]["commit"]["author"]["date"]
-    dt_lst.append(datetime.datetime.strptime(dt, "%Y-%m-%dT%H:%M:%SZ"))
-# only sort by time, dict does not support sort
-dt_lst, repo_lst = zip(*sorted(zip(dt_lst, repo_lst), key=lambda e: e[0], reverse=True))
 source_repo_lst = [repo for repo in repo_lst if not repo["fork"]]
+for repo in source_repo_lst:
+    if not repo["fork"]:
+        url = f"https://api.github.com/repos/{user}/{repo['name']}/commits"
+        commit_lst = query(url)
+        dt = commit_lst[-1]["commit"]["author"]["date"]
+        dt_lst.append(datetime.datetime.strptime(dt, "%Y-%m-%dT%H:%M:%SZ"))
+# only sort by time, dict does not support sort
+dt_lst, source_repo_lst = zip(
+    *sorted(zip(dt_lst, source_repo_lst), key=lambda e: e[0], reverse=True)
+)
 fork_repo_lst = [repo for repo in repo_lst if repo["fork"]]
 
 # %%
