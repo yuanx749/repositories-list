@@ -46,7 +46,7 @@ fork_repo_lst = [repo for repo in repo_lst if repo["fork"]]
 
 # %%
 tags = ["research", "tool", "project", "private"]
-f_ = open("README.md", "w")
+f_ = open("README.md", "w", encoding="utf-8")
 f_.write("# Repositories List\n")
 f_.write("An automatically updated list of my public repos and repos contributed to.\n")
 f_.write("\n#### Research\n")
