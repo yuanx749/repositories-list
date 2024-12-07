@@ -35,4 +35,5 @@ An automatically updated list of my public repos and repos contributed to.
 - [huggingface/transformers](https://github.com/huggingface/transformers) - 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
 - [shap/shap](https://github.com/shap/shap) - A game theoretic approach to explain the output of any machine learning model.
 - [probml/pyprobml](https://github.com/probml/pyprobml) - Python code for "Probabilistic Machine learning" book by Kevin Murphy
+- [networkx/networkx](https://github.com/networkx/networkx) - Network Analysis in Python
 - [scverse/scanpy](https://github.com/scverse/scanpy) - Single-cell analysis in Python. Scales to >1M cells.
