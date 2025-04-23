@@ -3,7 +3,6 @@ An automatically updated list of my public repos and repos contributed to.
 
 #### Research
 - [bcell](https://yuanx749.github.io/bcell/) - A framework for linear B-cell epitope prediction and classification. (ECML PKDD 2023)
-- [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Predict multi-epitope vaccine subunit candidates using NLP.
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
 
 #### Tools
@@ -15,6 +14,7 @@ An automatically updated list of my public repos and repos contributed to.
 #### Featured Projects
 - [vae-mixin-pytorch](https://yuanx749.github.io/vae-mixin-pytorch/) - Variational autoencoders as mixins.
 - [complex_systems](https://yuanx749.github.io/complex_systems/) - A Python package for studying complex systems.
+- [deep-vaccine](https://yuanx749.github.io/deep-vaccine/) - Predict multi-epitope vaccine subunit candidates using NLP.
 - [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python with GUI.
 - [genome_analysis](https://yuanx749.github.io/genome_analysis/) - Genome analysis labs.
 
