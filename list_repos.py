@@ -24,6 +24,7 @@ user = "yuanx749"
 params = urllib.parse.urlencode(
     {
         "sort": "updated",
+        "per_page": 100,
     }
 )
 url = f"https://api.github.com/users/{user}/repos?{params}"
@@ -57,18 +58,20 @@ f_.write("\n#### Tools\n")
 for repo in source_repo_lst:
     if "tool" in repo["topics"]:
         f_.write(f"- [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
-f_.write("\n#### Featured Projects\n")
+f_.write("\n#### Others\n")
 for repo in source_repo_lst:
     if "project" in repo["topics"]:
         f_.write(f"- [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
-f_.write("\n#### Others\n")
+f_.write("<!--  -->\n")
 for repo in source_repo_lst:
     if all(tag not in repo["topics"] for tag in tags):
         f_.write(f"- [{repo['name']}]({repo['html_url']}) - {repo['description']}\n")
 
-href = "https://github.com/search?q=involves%3Ayuanx749&amp;type=pullrequests&amp;s=created&amp;o=desc"
+href = "https://github.com/search?q=involves%3Ayuanx749+is%3Apublic+&amp;type=pullrequests&amp;s=created&amp;o=desc"
 f_.write(f'\n#### <a href="{href}">Contributions</a>\n')
-for repo in fork_repo_lst:
+for i, repo in enumerate(fork_repo_lst):
+    if i == 5:
+        f_.write("<!--  -->\n")
     url = f"https://api.github.com/repos/{user}/{repo['name']}"
     repo_dict = query(url)
     src = repo_dict["source"]
