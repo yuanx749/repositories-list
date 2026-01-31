@@ -46,7 +46,7 @@ dt_lst, source_repo_lst = zip(
 fork_repo_lst = [repo for repo in repo_lst if repo["fork"]]
 
 # %%
-tags = ["research", "tool", "project", "private"]
+tags = ["research", "tool", "project"]
 f_ = open("README.md", "w", encoding="utf-8")
 f_.write("# Repositories List\n")
 f_.write("An automatically updated list of my public repos and repos contributed to.\n")
@@ -64,11 +64,11 @@ for repo in source_repo_lst:
         f_.write(f"- [{repo['name']}]({repo['homepage']}) - {repo['description']}\n")
 f_.write("<!--  -->\n")
 for repo in source_repo_lst:
-    if all(tag not in repo["topics"] for tag in tags):
+    if (topics := repo["topics"]) and set(topics).isdisjoint(tags):
         f_.write(f"- [{repo['name']}]({repo['html_url']}) - {repo['description']}\n")
 
 href = "https://github.com/search?q=involves%3Ayuanx749+is%3Apublic+&amp;type=pullrequests&amp;s=created&amp;o=desc"
-f_.write(f'\n#### <a href="{href}">Contributions</a>\n')
+f_.write(f'\n#### Contributions (<a href="{href}">PRs and issues</a>)\n')
 for i, repo in enumerate(fork_repo_lst):
     if i == 5:
         f_.write("<!--  -->\n")
