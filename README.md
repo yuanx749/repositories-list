@@ -18,12 +18,12 @@ An automatically updated list of my public repos and repos contributed to.
 - [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python with GUI.
 - [genome_analysis](https://yuanx749.github.io/genome_analysis/) - Genome analysis labs.
 <!--  -->
-- [config-argument-parser-docs](https://github.com/yuanx749/config-argument-parser-docs) - Docs of config-argument-parser.
 - [repositories-list](https://github.com/yuanx749/repositories-list) - A list of my public repos.
+- [config-argument-parser-docs](https://github.com/yuanx749/config-argument-parser-docs) - Docs of config-argument-parser.
 - [n-body](https://github.com/yuanx749/n-body) - N-body simulation with quadtree, OpenMP parallelized.
 - [docker-flask-redis-celery](https://github.com/yuanx749/docker-flask-redis-celery) - Docker Compose template for web application.
 
-#### <a href="https://github.com/search?q=involves%3Ayuanx749+is%3Apublic+&amp;type=pullrequests&amp;s=created&amp;o=desc">Contributions</a>
+#### Contributions (<a href="https://github.com/search?q=involves%3Ayuanx749+is%3Apublic+&amp;type=pullrequests&amp;s=created&amp;o=desc">PRs and issues</a>)
 - [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) - scikit-learn: machine learning in Python
 - [pandas-dev/pandas](https://github.com/pandas-dev/pandas) - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
 - [scipy/scipy](https://github.com/scipy/scipy) - SciPy library main repository
