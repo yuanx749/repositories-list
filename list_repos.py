@@ -43,7 +43,9 @@ for repo in source_repo_lst:
 dt_lst, source_repo_lst = zip(
     *sorted(zip(dt_lst, source_repo_lst), key=lambda e: e[0], reverse=True)
 )
-fork_repo_lst = [repo for repo in repo_lst if repo["fork"]]
+fork_repo_lst = [
+    repo for repo in repo_lst if repo["fork"] and "private" not in repo["topics"]
+]
 
 # %%
 tags = ["research", "tool", "project"]
