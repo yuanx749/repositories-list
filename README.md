@@ -18,6 +18,7 @@ An automatically updated list of my public repos and repos contributed to.
 - [2048-ai-tk](https://yuanx749.github.io/2048-ai-tk/) - 2048 AI in Python with GUI.
 - [genome_analysis](https://yuanx749.github.io/genome_analysis/) - Genome analysis labs.
 <!--  -->
+- [clinical-ims](https://github.com/yuanx749/clinical-ims) - A clinical information management system.
 - [repositories-list](https://github.com/yuanx749/repositories-list) - A list of my public repos.
 - [config-argument-parser-docs](https://github.com/yuanx749/config-argument-parser-docs) - Docs of config-argument-parser.
 - [n-body](https://github.com/yuanx749/n-body) - N-body simulation with quadtree, OpenMP parallelized.
