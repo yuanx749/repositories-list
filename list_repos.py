@@ -72,7 +72,7 @@ for repo in source_repo_lst:
 href = "https://github.com/search?q=involves%3Ayuanx749+is%3Apublic+&amp;type=pullrequests&amp;s=created&amp;o=desc"
 f_.write(f'\n#### Contributions (<a href="{href}">PRs and issues</a>)\n')
 for i, repo in enumerate(fork_repo_lst):
-    if i == 5:
+    if i == 6:
         f_.write("<!--  -->\n")
     url = f"https://api.github.com/repos/{user}/{repo['name']}"
     repo_dict = query(url)
