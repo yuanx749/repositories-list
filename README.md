@@ -2,6 +2,7 @@
 An automatically updated list of my public repos and repos contributed to.
 
 #### Research
+- [lgtm](https://yuanx749.github.io/lgtm/) - Longitudinal Gaussian process modulated neural topic modeling for microbiome data analysis.
 - [bcell](https://yuanx749.github.io/bcell/) - A framework for linear B-cell epitope prediction and classification. (ECML PKDD 2023)
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
 
