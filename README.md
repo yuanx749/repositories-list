@@ -3,10 +3,11 @@ An automatically updated list of my public repos and repos contributed to.
 
 #### Research
 - [lgtm](https://yuanx749.github.io/lgtm/) - Longitudinal Gaussian process modulated neural topic modeling for microbiome data analysis.
-- [bcell](https://yuanx749.github.io/bcell/) - A framework for linear B-cell epitope prediction and classification. (ECML PKDD 2023)
+- [beetle](https://yuanx749.github.io/beetle/) - A framework for linear B-cell epitope prediction and classification. (ECML PKDD 2023)
 - [master-thesis](https://yuanx749.github.io/master-thesis/) - The code for my master's degree project.
 
 #### Tools
+- [awesome-bioinformatics-software](https://yuanx749.github.io/awesome-bioinformatics-software/) - A curated directory of bioinformatics software with regularly updated download statistics and GitHub metadata.
 - [py-cdhit](https://yuanx749.github.io/py-cdhit/) - A Python package for CD-HIT, clustering protein or nucleotide sequences.
 - [auto-sphinx-page-action](https://github.com/marketplace/actions/auto-sphinx-page) - GitHub action that creates website using Sphinx.
 - [config-argument-parser](https://yuanx749.github.io/config-argument-parser-docs/) - A package to help automatically create command-line interface from configuration or code.
